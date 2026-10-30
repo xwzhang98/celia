@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# data, views, runs and weights never go into git
+data/
+views/
+runs/
+*.pt
+*.npy
+*.npz
+*.hdf5

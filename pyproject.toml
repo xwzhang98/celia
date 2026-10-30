@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "celia"
+version = "1.0.0"
+description = "Celia: Catalog Embeddings Learned from cosmologIcal simulAtions"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Xiaowen Zhang" }]
+requires-python = ">=3.11"
+# The released model was trained and exported with torch 2.8.0 and numpy 2.2.4.
+dependencies = [
+    "torch>=2.8",
+    "numpy>=2.2",
+    "h5py>=3.10",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["celia*"]
