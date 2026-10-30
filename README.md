@@ -1,7 +1,7 @@
 # Celia: Catalog Embeddings Learned from cosmologIcal simulAtions
 
-Code for the paper *Celia: Catalog Embeddings Learned from cosmologIcal simulAtions* (Zhang, Ho, Kumar,
-Di Matteo, Croft, Póczos 2026).
+Code for the paper [*Celia: Catalog Embeddings Learned from cosmologIcal simulAtions*](https://arxiv.org/abs/2610.40218)
+(Zhang, Ho, Kumar, Di Matteo, Croft, Póczos 2026).
 
 Celia is a self-supervised encoder that maps a catalog of subhalos and their galaxy properties to one embedding
 vector. It is pretrained without parameter labels on the IllustrisTNG, SIMBA and Astrid suites of
@@ -87,8 +87,10 @@ bit (see `docs/VERIFICATION.md`).
   title   = {Celia: Catalog Embeddings Learned from cosmologIcal simulAtions},
   author  = {Zhang, Xiaowen and Ho, Matthew and Kumar, Anshul and Di Matteo, Tiziana and Croft, Rupert A. C.
              and P{\'o}czos, Barnab{\'a}s},
-  year    = {2026},
-  note    = {arXiv:XXXX.XXXXX}
+  journal = {arXiv e-prints},
+  eprint  = {2610.40218},
+  archivePrefix = {arXiv},
+  year    = {2026}
 }
 ```
 
